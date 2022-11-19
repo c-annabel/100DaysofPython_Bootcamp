@@ -57,7 +57,7 @@ while nextCustomer:
     coffee = input("What would you like? (espresso/latte/cappuccino): ")
 
     if coffee == "off":
-        nextCutomer = False
+        nextCustomer = False
         break
     elif coffee == "report":
         prResources()
@@ -68,7 +68,7 @@ while nextCustomer:
                 print(f"Sorry there is not enough {i}")
                 insufficient = True
         print()
-        if insufficient != True:
+        if not insufficient:
             monetaryValue = 0
             for i in moneyChange:
                 qty = int(input(f"Please insert the quantity of {i}: "))
