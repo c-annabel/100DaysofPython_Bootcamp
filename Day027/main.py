@@ -46,13 +46,7 @@ print(input.get())
 input.grid(column=4, row=3)
 
 
-
-
-
-
-
 # import turtle
-#
 # tim = turtle.Turtle()
 # tim.hideturtle()
 # tim.write("Test Turtle")
