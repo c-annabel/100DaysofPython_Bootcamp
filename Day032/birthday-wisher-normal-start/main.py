@@ -47,8 +47,8 @@ import datetime as dt
 
 today = (dt.datetime.now().month, dt.datetime.now().day)
 
-my_email = "zheng.annabel@gmail.com"
-password = "ittlbwkgiojwnwiq"
+my_email = "gmail"
+password = "APP password"
 
 birthdays_dict = {}
 
