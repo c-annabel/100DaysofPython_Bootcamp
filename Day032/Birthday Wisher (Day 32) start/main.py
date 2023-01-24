@@ -7,8 +7,8 @@ import random
 
 import smtplib
 
-my_email = "zheng.annabel@gmail.com"
-password = "ittlbwkgiojwnwiq"
+my_email = "gmail"
+password = "APP paassword"
 
 #Create 2-way authentication, and create & copy the App password ittlbwkgiojwnwiq
 
@@ -26,7 +26,7 @@ password = "ittlbwkgiojwnwiq"
 #     connection.login(user=my_email, password=password)
 #     connection.sendmail(
 #         from_addr=my_email,
-#         to_addrs="ac.destinee@gmail.com",
+#         to_addrs="destine address",
 #         msg="Subject:Hello2\n\nThis is the body of my email."
 #     )
 
@@ -66,6 +66,6 @@ if weekday == 0:
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="ac.destinee@gmail.com",
+            to_addrs="destine address",
             msg=f"Subject:Test Python EmailSmtp 01\n\n{quote}"
         )
