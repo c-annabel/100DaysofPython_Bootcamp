@@ -28,11 +28,12 @@ if sheet_data[0]["iataCode"] == "":
 for row in sheet_data:
     flight = flight_search.get_search_data(row["iataCode"])
 
-    if flight.price < row["lowestPrice"]:
+    if flight != None and flight.price < row["lowestPrice"]:
         notification.send_sms(
-            message=f"Low price alert! Only €{flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to {flight.desti_city}-{flight.desti_airport}, from{flight.out_date} to {flight.return_date}."
+            msg=f"Low price alert! Only €{flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to {flight.desti_city}-{flight.desti_airport}, from{flight.out_date} to {flight.return_date}."
         )
 
-    # if row["lowestPrice"] != None:
+    if flight != None:
+        row["lowestPrice"] = flight.price
         data_manager.sheet_data = sheet_data
         data_manager.updateSheetData()
