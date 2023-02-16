@@ -1,0 +1,222 @@
+.hero{
+    color: #f8f6f8;
+    background-color: #253034;
+    margin: 0;
+    text-align: center;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
+    background-image: url("../img/pink_crowned_tree.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.hero::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: left;
+}
+
+.top-cloud {
+    position: fixed;
+    top:5%;
+    right: 5%;
+}
+
+.top-container {
+    position: relative;
+    top: 100px;
+    bottom: 50px;
+    margin: 50px ;
+    margin-top: 0;
+    margin-bottom: 80px;
+} 
+
+.profile, .contact-me {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ac-img {
+    border-radius: 20%;  
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 12%;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+    margin: 30px auto 0 auto;
+}
+
+hr {
+    width: 98%;
+    border: dotted #6f7273 5px;
+    border-bottom: none;
+    margin: 20px auto 20px auto;
+}
+
+table {
+    margin-top: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+
+.translater {
+    margin = 0;
+}
+
+h3 {
+    color: rgb(212, 194, 55);
+}
+
+h3.job {
+    color: rgb(212, 194, 55);
+    margin: 0;
+    display: inline;
+}
+
+h4 {
+    margin: 15px;
+    display: inline;
+}
+
+.exp {
+    text-align: left ;
+    margin-left: 5%;
+    margin-right: 5%;  
+}
+
+.course {
+    font-style: italic;
+}
+
+.sub-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hotpink;
+    font-size: large;
+    font-weight: 500;
+}
+
+.thanks {
+    width: 80%;
+    margin: auto;
+}
+
+.bottom-container {
+    position: relative;
+    background-color: #55153789;
+    padding: 30px 0 30px;
+    margin: 0;
+    /* width: 800px;
+    height: 70px;
+    background-color: #6c2759a8; */
+    /* margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items:end;
+    padding-top: 1%; */
+    /*border: solid 10px;
+    border-color: black;
+    margin-left: 500px; */
+}
+
+.button1 {
+    /* border: 4px solid #a26092;
+    background-color: #d8458f; */
+    background: #d1649e;
+    background-image: -webkit-linear-gradient(top, #d1649e, #c20470);
+    background-image: -moz-linear-gradient(top, #d1649e, #c20470);
+    background-image: -ms-linear-gradient(top, #d1649e, #c20470);
+    background-image: -o-linear-gradient(top, #d1649e, #c20470);
+    background-image: linear-gradient(to bottom, #d1649e, #c20470);
+    color: #f8f6f8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    margin-bottom: 50px;
+  }
+
+.button1:hover {
+    /* background-color: #2e3b3f; */
+    background: #979fa3;
+    background-image: -webkit-linear-gradient(top, #979fa3, #2e3b3f);
+    background-image: -moz-linear-gradient(top, #979fa3, #2e3b3f);
+    background-image: -ms-linear-gradient(top, #979fa3, #2e3b3f);
+    background-image: -o-linear-gradient(top, #979fa3, #2e3b3f);
+    background-image: linear-gradient(to bottom, #979fa3, #2e3b3f);
+    text-decoration: none;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+
+a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+/* unvisited link */
+a:link {
+    color: #f8f6f8;
+}
+  
+/* visited link */
+a:visited {
+color: rgb(192, 140, 49);
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: #f8f6f8;
+}
+
+.cdt {
+    font-size: small;
+    text-decoration: none;
+}
+
+.tinylogo {
+    margin-top: 40px;
+}
+.copyright {
+    /* padding-bottom: 30px; */
+    font-size: 0.9rem;
+}
