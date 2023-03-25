@@ -1,0 +1,21 @@
+<!--#https://flask.palletsprojects.com/en/1.1.x/quickstart/#routing-->
+<!--#https://www.npoint.io/docs/c790b4d5cab58020d391-->
+<!--#https://www.npoint.io-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+    {% for blog_post in blog %}
+        {% if blog_post["id"] == num: %}
+            <h3>{{blog_post["title"]}}</h3>
+            <h4>{{blog_post["subtitle"]}}</h4>
+            <h5>{{blog_post["body"]}}</h5>
+            <hr>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
